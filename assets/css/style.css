@@ -1,0 +1,83 @@
+:root{
+    --primary-color: #123524;
+    --secondary-color: #000000;
+    --ternary-color: #323232;
+    --accent-color: #212121;
+}
+
+@font-face {
+    font-family: supreme;
+    src: url(../fonts/SupremeSpike-KVO8D.otf);
+}
+
+h1 {
+    font-family: supreme
+}
+
+body{
+    overflow-x: hidden;
+    background-color: var(--secondary-color);
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+.navbar{
+    background-color: var(--primary-color) ;
+}
+
+.sec-1{
+    padding: 190px 0;
+}
+
+
+
+.light-bg{
+    background-color: var(--secondary-color);
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    margin: 0 10px;
+}
+
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.sec-10{
+    background-color: var(--primary-color);
+}
+
+.btn{
+    background-color: var(--primary-color);
+}
+.btn-1{
+    background-color: var(--secondary-color);
+}
+
+.sec-2{
+    background-color: var(--primary-color);
+}
+.sec-4{
+    background-color: var(--primary-color);
+}
+.sec-10 {
+    padding: 0px 0;
+    padding-bottom: 1px;
+}
+.form-control {
+        background-color: black;
+        border: var(--bs-border-width) solid #ffffff;
+}
+.form-control:hover{
+    box-shadow: none;
+}
